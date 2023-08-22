@@ -1,4 +1,4 @@
-import './style.css';
+// import './style.css';
 import changeStatus from './utils.js';
 
 const data = [
