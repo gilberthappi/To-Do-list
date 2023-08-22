@@ -74,6 +74,65 @@ To Do List
 - HTML
 - CSS
 
+
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+ - Git
+ - GitHub
+ - Any code editor
+ - Intalled Node.js
+
+
+### Setup
+
+Clone this repository to your desired folder:
+https://github.com/Fernando426/Portfolio-mobile-website.git
+
+Example commands:
+  cd my-folder
+  https://github.com/Fernando426/Portfolio-mobile-website.git
+
+### Install
+
+*Install this project with:
+- Any code editor
+- Node.js
+- Git
+- GitHub
+
+### Usage
+
+To run the project, execute the following command:
+
+you just have to double click on index.html file
+
+### Run tests
+
+To run tests, run the following command:
+
+you can run and verify the correct functioning of the linters from the command console using:
+npx stylelint "**/*.{css,scss}"
+
+to run the project you just have to double click on the file index.html
+
+### Deployment
+
+You can deploy this project using:
+
+-Git
+-Github
+-The text editor of your choice
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
