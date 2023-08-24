@@ -50,7 +50,7 @@ document.querySelector('form').addEventListener('submit', (e) => {
 document.getElementById('listItems').addEventListener('click', (e) => {
   if (e.target.classList.contains('deleteBtn')) {
     const index = parseInt(e.target.parentElement.dataset.index);
-    const taskIndex = storedData.findIndex(item => item.index === index);
+    const taskIndex = storedData.findIndex((item) => item.index === index);
     if (taskIndex !== -1) {
       storedData.splice(taskIndex, 1);
       storedData.forEach((item, idx) => {
@@ -67,7 +67,7 @@ document.getElementById('listItems').addEventListener('input', (e) => {
   if (e.target.classList.contains('toDoText')) {
     const index = parseInt(e.target.dataset.index);
     const newDescription = e.target.textContent.trim();
-    const taskIndex = storedData.findIndex(item => item.index === index);
+    const taskIndex = storedData.findIndex((item) => item.index === index);
     if (taskIndex !== -1) {
       storedData[taskIndex].description = newDescription;
       updateLocalStorage(storedData);
