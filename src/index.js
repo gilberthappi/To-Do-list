@@ -1,8 +1,10 @@
+import { updateStatus, clearCompletedTasks } from './status.js';
+
 const listItems = document.getElementById('listItems');
 const newItemInput = document.getElementById('newItem');
 const clearCompletedBtn = document.getElementById('clearCompleted');
 
-let storedData = JSON.parse(localStorage.getItem('storedData')) || [];
+const storedData = JSON.parse(localStorage.getItem('storedData')) || [];
 
 function updateLocalStorage(data) {
   localStorage.setItem('storedData', JSON.stringify(data));
@@ -25,7 +27,7 @@ function refreshUI() {
     add(data);
   });
 }
-
+export { updateLocalStorage, refreshUI, storedData };
 function addTask(description) {
   const newIndex = storedData.length + 1;
   const newTask = {
@@ -89,23 +91,14 @@ listItems.addEventListener('input', (e) => {
 listItems.addEventListener('change', (e) => {
   if (e.target.classList.contains('checkBox')) {
     const index = parseInt(e.target.dataset.index, 10);
-    const taskIndex = storedData.findIndex((item) => item.index === index);
-    if (taskIndex !== -1) {
-      storedData[taskIndex].completed = e.target.checked;
-      updateLocalStorage(storedData);
-      refreshUI();
-    }
+    const completed = e.target.checked;
+    updateStatus(index, completed);
   }
 });
 
 // Clear All Completed Tasks
 clearCompletedBtn.addEventListener('click', () => {
-  storedData = storedData.filter((task) => !task.completed);
-  storedData.forEach((task, idx) => {
-    task.index = idx + 1;
-  });
-  updateLocalStorage(storedData);
-  refreshUI();
+  clearCompletedTasks();
 });
 
 // Initial Load
