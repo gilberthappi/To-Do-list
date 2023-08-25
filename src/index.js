@@ -1,23 +1,49 @@
-import './index.css';
-import TaskManager from './modules/taskManager.js';
+// import './style.css';
+import changeStatus from './utils.js';
 
-const taskManager = new TaskManager();
+const data = [
+  {
+    description: 'Workout',
+    completed: false,
+    index: 2,
+  },
+  {
+    description: 'Finish today Lessons',
+    completed: false,
+    index: 1,
+  },
+  {
+    description: 'Grocery Shopping',
+    completed: false,
+    index: 3,
+  },
+];
 
-// Event listener for the add button
-document.getElementById('addButton').addEventListener('click', (e) => {
-  e.preventDefault();
-  const newTaskDescription = document.getElementById('newTaskInput').value.trim();
-  if (newTaskDescription) {
-    taskManager.addTask(newTaskDescription);
-    document.getElementById('newTaskInput').value = '';
+function add(data) {
+  const listItems = document.getElementById('listItems');
+  const checked = data.completed;
+  const item = `
+    <li class="item" data-index=${data.index}>
+      <input  ${checked === true ? 'checked' : ''} type="checkbox" class="checkBox" data-index=${data.index}>
+      <p type="text" contenteditable class="toDoText  ${checked === true ? 'checked' : ''}" data-index=${data.index}>${data.description}</p>
+      <button class="deleteBtn" data-index=${data.index}><i class="far fa-trash-alt" ></i></button>
+    </li>
+  `;
+  listItems.innerHTML += item;
+}
+
+function initialLoad() {
+  const storedData = JSON.parse(localStorage.getItem('storedData')) || data;
+  if (storedData) {
+    storedData.sort((a, b) => (a.index - b.index))
+      .forEach((data) => {
+        add(data);
+      });
   }
-});
+  localStorage.setItem('storedData', JSON.stringify(storedData));
 
-const clearCompletedTasksButton = document.getElementById('clearCompletedButton');
-// Adding event listener for completed tasks
-clearCompletedTasksButton.addEventListener('click', () => {
-  taskManager.clearCompletedTasks();
-});
+  const listItems = document.getElementById('listItems');
+  listItems.addEventListener('change', changeStatus);
+}
 
-// Initial rendering of the tasks
-taskManager.renderTasks();
+initialLoad();
