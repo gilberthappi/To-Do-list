@@ -107,7 +107,7 @@ If you like this project...leave a star⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank alex
+Review friend code is working but if you want to run it use 'ENTER' button
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
