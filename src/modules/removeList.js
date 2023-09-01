@@ -1,12 +1,12 @@
-import { data } from "./getElements.js";
-import ShowList from "./showList.js";
+import { data } from './getElements.js';
+import ShowList from './showList.js';
 
 class RemoveList {
   removeList = (id) => {
     let listArr = [];
-    let str = "";
+    let str = '';
     const listShow = new ShowList();
-    const listArrStr = localStorage.getItem("list");
+    const listArrStr = localStorage.getItem('list');
     listArr = JSON.parse(listArrStr);
     listArr.splice(id, 1);
 
@@ -18,8 +18,8 @@ class RemoveList {
       return updatedIndex;
     });
 
-    localStorage.setItem("list", JSON.stringify(updateData));
-    str = "";
+    localStorage.setItem('list', JSON.stringify(updateData));
+    str = '';
     data.innerHTML = str;
     listShow.showList();
   };

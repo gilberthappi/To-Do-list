@@ -93,11 +93,13 @@ input[type="checkbox"]:checked + .description::before {
   border-radius: 50%;
 }
 
-.fa-trash-alt:hover {
-  cursor: pointer;
+.fa-trash-alt {
+  display: none;
+  color: red;
+  font-size: 20px;
 }
 
-.fa-ellipsis-v:hover {
+.fa-trash-alt:hover {
   cursor: pointer;
 }
 
@@ -105,10 +107,8 @@ input[type="checkbox"]:checked + .description::before {
   font-size: 20px;
 }
 
-.fa-trash-alt {
-  display: none;
-  color: red;
-  font-size: 20px;
+.fa-ellipsis-v:hover {
+  cursor: pointer;
 }
 
 .update-field {

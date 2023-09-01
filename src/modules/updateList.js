@@ -1,13 +1,13 @@
-import { data } from "./getElements.js";
-import ShowList from "./showList.js";
+import { data } from './getElements.js';
+import ShowList from './showList.js';
 
 class UpdateList {
   updateList = (index, description) => {
     let listArr = [];
-    let str = "";
+    let str = '';
     const listShow = new ShowList();
 
-    const listArrStr = localStorage.getItem("list");
+    const listArrStr = localStorage.getItem('list');
     listArr = JSON.parse(listArrStr);
 
     const updateTask = listArr.filter((item) => {
@@ -17,9 +17,9 @@ class UpdateList {
       return item;
     });
 
-    localStorage.setItem("list", JSON.stringify(updateTask));
+    localStorage.setItem('list', JSON.stringify(updateTask));
 
-    str = "";
+    str = '';
     data.innerHTML = str;
     listShow.showList();
   };
