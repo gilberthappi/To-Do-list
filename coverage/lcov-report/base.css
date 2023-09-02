@@ -99,6 +99,10 @@ table.coverage td {
   vertical-align: top;
 }
 
+.coverage-summary .sorter {
+  background-image: url(sort-arrow-sprite.png);
+}
+
 .coverage-summary td:last-child { border-right: none; }
 
 div.path a:link,
@@ -199,6 +203,7 @@ table.coverage td span.cline-any {
 .cover-empty {
   display: inline-block;
   height: 12px;
+  width: 0;
 }
 
 .chart {
@@ -278,6 +283,7 @@ span.cline-neutral { background: #eaeaea; }
 
 .cover-full {
   border-right: none !important;
+  width: 100%;
 }
 
 pre.prettyprint {
