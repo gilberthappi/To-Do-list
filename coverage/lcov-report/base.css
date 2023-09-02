@@ -195,7 +195,6 @@ span.cline-neutral { background: #eaeaea; }
 .cover-fill, .cover-empty {
   display:inline-block;
   height: 12px;
-  width: 0;
 }
 .chart {
   line-height: 0;
@@ -205,7 +204,6 @@ span.cline-neutral { background: #eaeaea; }
 }
 .cover-full {
     border-right: none !important;
-    width: 100%
 }
 pre.prettyprint {
     border: none !important;

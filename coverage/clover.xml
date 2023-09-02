@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1693675014198" clover="3.2.0">
-  <project timestamp="1693675014198" name="All files">
+<coverage generated="1693680560204" clover="3.2.0">
+  <project timestamp="1693680560205" name="All files">
     <metrics statements="56" coveredstatements="54" conditionals="10" coveredconditionals="8" methods="9" coveredmethods="9" elements="75" coveredelements="71" complexity="0" loc="56" ncloc="56" packages="1" files="6" classes="6"/>
     <file name="addList.js" path="D:\WORK\Projects\MV\To-Do-list\src\__mock__\addList.js">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
