@@ -1,31 +1,17 @@
-import { data } from './getElements.js';
+/* eslint-disable import/no-cycle */
+import showList from './showList.js';
 
-class UpdateList {
-  constructor(showList) {
-    this.showList = showList;
-  }
-
-  updateList = (index, description) => {
-    let listArr = [];
-    let str = '';
-    const listShow = new this.ShowList();
-
-    const listArrStr = localStorage.getItem('list');
-    listArr = JSON.parse(listArrStr);
-
-    const updateTask = listArr.filter((item) => {
-      if (item.index === index) {
-        item.description = description;
-      }
-      return item;
-    });
-
-    localStorage.setItem('list', JSON.stringify(updateTask));
-
-    str = '';
-    data.innerHTML = str;
-    listShow.showList();
-  };
-}
-
-export default UpdateList;
+const updateList = (index) => {
+  let listArr = [];
+  const listArrStr = localStorage.getItem('list');
+  listArr = JSON.parse(listArrStr);
+  const updatedList = listArr.map((item) => {
+    if (item.index === index) {
+      item.description = "I will complete my today's task";
+    }
+    return item;
+  });
+  localStorage.setItem('list', JSON.stringify(updatedList));
+  showList();
+};
+export default updateList;

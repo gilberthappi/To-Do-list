@@ -13,7 +13,7 @@ describe('Test for update list tasks', () => {
 
     expect(afterUpdate).toEqual([
       {
-        description: "I will Complete my today's task",
+        description: "I will complete my today's task",
         completed: false,
         index: 0,
       },
