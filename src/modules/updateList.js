@@ -1,7 +1,10 @@
 import { data } from './getElements.js';
-import ShowList from './showList.js';
 
 class UpdateList {
+  constructor(showList) {
+    this.showList = showList;
+  }
+
   updateList = (index, description) => {
     let listArr = [];
     let str = '';

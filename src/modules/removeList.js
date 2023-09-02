@@ -1,5 +1,4 @@
 import { data } from './getElements.js';
-import ShowList from './showList.js';
 
 class RemoveList {
   removeList = (id) => {

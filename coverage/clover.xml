@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1693605511850" clover="3.2.0">
-  <project timestamp="1693605511850" name="All files">
+<coverage generated="1693641378957" clover="3.2.0">
+  <project timestamp="1693641378957" name="All files">
     <metrics statements="29" coveredstatements="29" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="33" coveredelements="33" complexity="0" loc="29" ncloc="29" packages="1" files="3" classes="3"/>
-    <file name="addList.js" path="D:\WORK\Projects\MV\To-Do-list\src\__mock__\addList.js">
+    <file name="addList.js" path="/home/happi/Projects/Microverse/To-Do-list/src/__mock__/addList.js">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="3" count="1" type="stmt"/>
       <line num="4" count="4" type="stmt"/>
@@ -10,7 +10,7 @@
       <line num="17" count="4" type="stmt"/>
       <line num="18" count="4" type="stmt"/>
     </file>
-    <file name="removeList.js" path="D:\WORK\Projects\MV\To-Do-list\src\__mock__\removeList.js">
+    <file name="removeList.js" path="/home/happi/Projects/Microverse/To-Do-list/src/__mock__/removeList.js">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="3" count="1" type="stmt"/>
       <line num="4" count="2" type="stmt"/>
@@ -20,7 +20,7 @@
       <line num="9" count="2" type="stmt"/>
       <line num="10" count="2" type="stmt"/>
     </file>
-    <file name="showList.js" path="D:\WORK\Projects\MV\To-Do-list\src\__mock__\showList.js">
+    <file name="showList.js" path="/home/happi/Projects/Microverse/To-Do-list/src/__mock__/showList.js">
       <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="6" type="stmt"/>
