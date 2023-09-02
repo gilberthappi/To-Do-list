@@ -1,101 +1,64 @@
-tn:
-
-  sf:src\__mock__\addlist.js
-  fn:3,
-  (anonymous_0)
-  fnf:1
-  fnh:1
-  fnda:4,
-  (anonymous_0)
-  da:3,
-  1
-  da:4,
-  4
-  da:5,
-  4
-  da:17,
-  4
-  da:18,
-  4
-  lf:5
-  lh:5
-  brf:0
-  brh:0
-  end_of_record
-  tn:
-  sf:src\__mock__\removelist.js
-  fn:3,
-  (anonymous_0)
-  fnf:1
-  fnh:1
-  fnda:2,
-  (anonymous_0)
-  da:3,
-  1
-  da:4,
-  2
-  da:5,
-  2
-  da:6,
-  2
-  da:7,
-  2
-  da:9,
-  2
-  da:10,
-  2
-  lf:7
-  lh:7
-  brf:0
-  brh:0
-  end_of_record
-  tn:
-  sf:src\__mock__\showlist.js
-  fn:1,
-  (anonymous_0)
-  fn:7,
-  (anonymous_1)
-  fnf:2
-  fnh:2
-  fnda:6,
-  (anonymous_0)
-  fnda:10,
-  (anonymous_1)
-  da:1,
-  1
-  da:2,
-  6
-  da:4,
-  6
-  da:5,
-  6
-  da:7,
-  6
-  da:8,
-  10
-  da:9,
-  10
-  da:10,
-  10
-  da:11,
-  10
-  da:12,
-  10
-  da:13,
-  10
-  da:14,
-  10
-  da:15,
-  10
-  da:16,
-  10
-  da:17,
-  10
-  da:18,
-  10
-  da:19,
-  10
-  lf:17
-  lh:17
-  brf:0
-  brh:0;
+TN:
+SF:src/__mock__/addList.js
+FN:3,(anonymous_0)
+FNF:1
+FNH:1
+FNDA:4,(anonymous_0)
+DA:3,1
+DA:4,4
+DA:5,4
+DA:17,4
+DA:18,4
+LF:5
+LH:5
+BRF:0
+BRH:0
+end_of_record
+TN:
+SF:src/__mock__/removeList.js
+FN:3,(anonymous_0)
+FNF:1
+FNH:1
+FNDA:2,(anonymous_0)
+DA:3,1
+DA:4,2
+DA:5,2
+DA:6,2
+DA:7,2
+DA:9,2
+DA:10,2
+LF:7
+LH:7
+BRF:0
+BRH:0
+end_of_record
+TN:
+SF:src/__mock__/showList.js
+FN:1,(anonymous_0)
+FN:7,(anonymous_1)
+FNF:2
+FNH:2
+FNDA:6,(anonymous_0)
+FNDA:10,(anonymous_1)
+DA:1,1
+DA:2,6
+DA:4,6
+DA:5,6
+DA:7,6
+DA:8,10
+DA:9,10
+DA:10,10
+DA:11,10
+DA:12,10
+DA:13,10
+DA:14,10
+DA:15,10
+DA:16,10
+DA:17,10
+DA:18,10
+DA:19,10
+LF:17
+LH:17
+BRF:0
+BRH:0
+end_of_record
