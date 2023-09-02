@@ -47,6 +47,7 @@ For more information on the importance of a professional README for your reposit
   - [🛠 Built With ](#-built-with-)
   - [Built With](#built-with)
     - [Key Features ](#key-features-)
+  - [Key Features](#key-features)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -85,10 +86,6 @@ To Do List
 - **Check Tasks Done**
 - **Responsive**
 - **Drag/Drop**
-## Future Features
-Feature 1: **A real-time Event calendar**
-Feature 1: **A real-time Alarm** 
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +106,8 @@ Feature 1: **A real-time Alarm**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Some future features are going to be added soon
-
+Feature 1: **A real-time Event calendar**
+Feature 1: **A real-time Alarm** 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
