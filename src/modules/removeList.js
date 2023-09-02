@@ -4,7 +4,7 @@ class RemoveList {
   removeList = (id) => {
     let listArr = [];
     let str = '';
-    const listShow = new ShowList();
+    const listShow = new data.ShowList();
     const listArrStr = localStorage.getItem('list');
     listArr = JSON.parse(listArrStr);
     listArr.splice(id, 1);

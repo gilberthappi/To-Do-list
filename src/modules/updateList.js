@@ -8,7 +8,7 @@ class UpdateList {
   updateList = (index, description) => {
     let listArr = [];
     let str = '';
-    const listShow = new ShowList();
+    const listShow = new this.ShowList();
 
     const listArrStr = localStorage.getItem('list');
     listArr = JSON.parse(listArrStr);
