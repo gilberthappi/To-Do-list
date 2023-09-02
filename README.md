@@ -76,7 +76,7 @@ To Do List
 
 ### Key Features <a name="key-features"></a>
 
-> features of the application.
+## Key Features
 
 - **Add Task**
 - **Edit Task**
@@ -85,6 +85,10 @@ To Do List
 - **Check Tasks Done**
 - **Responsive**
 - **Drag/Drop**
+## Future Features
+Feature 1: **A real-time Event calendar**
+Feature 1: **A real-time Alarm** 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
