@@ -1,15 +1,15 @@
-import showList from './showList.js';
+import showList from "./showList.js";
 
 const clearCompletedTasks = () => {
   let listArr = [];
-  const listArrStr = localStorage.getItem('list');
+  const listArrStr = localStorage.getItem("list");
   listArr = JSON.parse(listArrStr);
 
-  for (let length = listArr.length - 1; length >= 0; length -= 1) {
+  for (let length = listArr.length - 1; length >= 0; length--) {
     listArr[length].completed = true && listArr.splice(length, 1);
   }
 
-  localStorage.setItem('list', JSON.stringify(listArr));
+  localStorage.setItem("list", JSON.stringify(listArr));
   showList();
 };
 

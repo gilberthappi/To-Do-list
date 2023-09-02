@@ -1,12 +1,12 @@
-import showList from './showList.js';
+import showList from "./showList.js";
 
 const removeList = (id) => {
   let listArr = [];
-  const listArrStr = localStorage.getItem('list');
+  const listArrStr = localStorage.getItem("list");
   listArr = JSON.parse(listArrStr);
   listArr.splice(id, 1);
 
-  localStorage.setItem('list', JSON.stringify(listArr));
+  localStorage.setItem("list", JSON.stringify(listArr));
   showList();
 };
 
