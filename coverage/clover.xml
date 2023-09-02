@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1693680560204" clover="3.2.0">
-  <project timestamp="1693680560205" name="All files">
-    <metrics statements="56" coveredstatements="54" conditionals="10" coveredconditionals="8" methods="9" coveredmethods="9" elements="75" coveredelements="71" complexity="0" loc="56" ncloc="56" packages="1" files="6" classes="6"/>
+<coverage generated="1693684954551" clover="3.2.0">
+  <project timestamp="1693684954551" name="All files">
+    <metrics statements="55" coveredstatements="55" conditionals="6" coveredconditionals="4" methods="9" coveredmethods="9" elements="70" coveredelements="68" complexity="0" loc="55" ncloc="55" packages="1" files="6" classes="6"/>
     <file name="addList.js" path="D:\WORK\Projects\MV\To-Do-list\src\__mock__\addList.js">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="3" count="2" type="stmt"/>
       <line num="4" count="7" type="stmt"/>
       <line num="5" count="7" type="stmt"/>
-      <line num="17" count="7" type="stmt"/>
-      <line num="18" count="7" type="stmt"/>
+      <line num="12" count="7" type="stmt"/>
+      <line num="13" count="7" type="stmt"/>
     </file>
     <file name="clearCompleted.js" path="D:\WORK\Projects\MV\To-Do-list\src\__mock__\clearCompleted.js">
       <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
@@ -17,21 +17,21 @@
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
-      <line num="9" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="1" type="cond" truecount="2" falsecount="0"/>
       <line num="12" count="1" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
     </file>
     <file name="completedList.js" path="D:\WORK\Projects\MV\To-Do-list\src\__mock__\completedList.js">
-      <metrics statements="9" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="2" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
       <line num="4" count="2" type="stmt"/>
       <line num="5" count="2" type="stmt"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="7" count="4" type="cond" truecount="3" falsecount="1"/>
-      <line num="8" count="0" type="stmt"/>
-      <line num="10" count="4" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
+      <line num="6" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
     </file>
     <file name="removeList.js" path="D:\WORK\Projects\MV\To-Do-list\src\__mock__\removeList.js">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -50,31 +50,30 @@
       <line num="4" count="11" type="stmt"/>
       <line num="5" count="11" type="stmt"/>
       <line num="7" count="11" type="stmt"/>
-      <line num="8" count="18" type="stmt"/>
-      <line num="9" count="18" type="stmt"/>
-      <line num="10" count="18" type="stmt"/>
-      <line num="11" count="18" type="stmt"/>
-      <line num="12" count="18" type="stmt"/>
-      <line num="13" count="18" type="stmt"/>
-      <line num="14" count="18" type="stmt"/>
-      <line num="15" count="18" type="stmt"/>
-      <line num="16" count="18" type="stmt"/>
-      <line num="17" count="18" type="stmt"/>
-      <line num="18" count="18" type="stmt"/>
-      <line num="19" count="18" type="stmt"/>
+      <line num="8" count="8" type="stmt"/>
+      <line num="9" count="8" type="stmt"/>
+      <line num="10" count="8" type="stmt"/>
+      <line num="11" count="8" type="stmt"/>
+      <line num="12" count="8" type="stmt"/>
+      <line num="13" count="8" type="stmt"/>
+      <line num="14" count="8" type="stmt"/>
+      <line num="15" count="8" type="stmt"/>
+      <line num="16" count="8" type="stmt"/>
+      <line num="17" count="8" type="stmt"/>
+      <line num="18" count="8" type="stmt"/>
+      <line num="19" count="8" type="stmt"/>
     </file>
     <file name="updateList.js" path="D:\WORK\Projects\MV\To-Do-list\src\__mock__\updateList.js">
-      <metrics statements="10" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <line num="3" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="cond" truecount="1" falsecount="1"/>
       <line num="9" count="1" type="stmt"/>
-      <line num="10" count="2" type="cond" truecount="3" falsecount="1"/>
-      <line num="11" count="0" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
