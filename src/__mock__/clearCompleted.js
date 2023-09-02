@@ -5,7 +5,7 @@ const clearCompletedTasks = () => {
   const listArrStr = localStorage.getItem('list');
   listArr = JSON.parse(listArrStr);
 
-  for (let length = listArr.length - 1; length >= 0; length--) {
+  for (let length = listArr.length - 1; length >= 0; length -= 1) {
     listArr[length].completed = true && listArr.splice(length, 1);
   }
 

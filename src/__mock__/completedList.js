@@ -4,8 +4,9 @@ const completedList = (index) => {
   const listArrStr = localStorage.getItem('list');
   listArr = JSON.parse(listArrStr);
   listArr.filter((update) => {
-    update.index === index && (update.completed = true);
-
+    if (update.index === index && update.completed === true) {
+      return update;
+    }
     return update;
   });
   localStorage.setItem('list', JSON.stringify(listArr));
