@@ -42,11 +42,13 @@ For more information on the importance of a professional README for your reposit
 
 # 📗 Table of Contents
 
-- [� Table of Contents](#-table-of-contents)
+- [📗 Table of Contents](#-table-of-contents)
 - [📖 To Do list: list structure](#-to-do-list-list-structure)
   - [🛠 Built With ](#-built-with-)
   - [Built With](#built-with)
+    - [Key Features ](#key-features-)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -70,6 +72,22 @@ To Do List
 - Webpack
 - Jest
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Key Features <a name="key-features"></a>
+
+> features of the application.
+
+- **Add Task**
+- **Edit Task**
+- **Remove Task / Tasks**
+- **Re-order Tasks**
+- **Check Tasks Done**
+- **Responsive**
+- **Drag/Drop**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -80,10 +98,18 @@ To Do List
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dushimimana-gilbert-happi-997b2a262/)
 
 👤 **Ahmed Alpanna**
-- GitHub: [@githubhandle](https://github.com/ALPANNA-GH)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ahmed-g-elbanna/)
+- GitHub: [ALPANNA-GH](https://github.com/ALPANNA-GH)
+- Gmail: [alpanna@gmail.com](mailto:alpanna@gmail.com)
+- linkedin: [Ahmed-g-Elbanna](https://linkedin.com/in/ahmed-g-elbanna)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Some future features are going to be added soon
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTRIBUTING -->
 
