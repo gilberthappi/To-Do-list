@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 import CompletedList from './completedTasks.js';
 import { data as items, clearCompletedTasks } from './getElements.js';
 import RemoveList from './removeList.js';

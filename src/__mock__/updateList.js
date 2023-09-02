@@ -1,4 +1,3 @@
-/* eslint-disable import/no-cycle */
 import showList from './showList.js';
 
 const updateList = (index) => {
@@ -14,4 +13,5 @@ const updateList = (index) => {
   localStorage.setItem('list', JSON.stringify(updatedList));
   showList();
 };
+
 export default updateList;
