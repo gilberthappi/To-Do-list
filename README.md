@@ -42,22 +42,15 @@ For more information on the importance of a professional README for your reposit
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [� Table of Contents](#-table-of-contents)
+- [📖 To Do list: list structure](#-to-do-list-list-structure)
+  - [🛠 Built With ](#-built-with-)
+  - [Built With](#built-with)
+  - [👥 Authors ](#-authors-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -73,6 +66,9 @@ To Do List
   ## Built With
 - HTML
 - CSS
+- JavaScript
+- Webpack
+- Jest
 
 <!-- AUTHORS -->
 
@@ -82,6 +78,10 @@ To Do List
 - GitHub: [@githubhandle](https://github.com/gilberthappi)
 - Twitter: [@twitterhandle](https://twitter.com/DushimimanaGil3)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dushimimana-gilbert-happi-997b2a262/)
+
+👤 **Ahmed Alpanna**
+- GitHub: [@githubhandle](https://github.com/ALPANNA-GH)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ahmed-g-elbanna/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

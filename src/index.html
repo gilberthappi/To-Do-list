@@ -3,47 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./style.css">
     <title>ToDo List</title>
   </head>
   <body>
-    <h1>ToDo List</h1>
-    <div class="container">
-      <form class="form">
-        <input
-          type="text"
-          name="description"
-          class="newItem"
-          id="newItem"
-          required
-        />
-        <div class="submit">
-          <input
-            type="submit"
-            class="submitNewItem"
-            id="submitNewItem"
-            value=""
-          />
-          <i class="fas fa-arrow-circle-right fa-lg"></i>
-        </div>
-      </form>
-      <ul class="listItems" id="listItems"></ul>
-      <button type="button" class="clearCompleted" id="clearCompleted">
-        Clear All Completed
-      </button>
+
+    <div class="error-message" id="error">
+      <i class="fa fa-warning"></i>
+      <p>Please Enter Task.</p>
     </div>
-    <script src="./index.js"></script>
+    <div class="data-container">
+      <h1>Todo List</h1>
+      
+      <div class="data">
+        <!-- Add your tasks Here -->
+        <div class="textbox-container">
+          <input
+            type="text"
+            placeholder="Add to your list"
+            class="text-input"
+            id="textBox"
+          />
+          <i class="fa fa-reply"></i>
+        </div>
+
+        <!-- Show all todos here -->
+        <div id="items"></div>
+        <div class="clear-completed-task" id="clear-task">Clear all completed</div>
+      </div>
+    </div>
   </body>
 </html>
