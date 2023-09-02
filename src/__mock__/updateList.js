@@ -4,12 +4,13 @@ const updateList = (index) => {
   let listArr = [];
   const listArrStr = localStorage.getItem('list');
   listArr = JSON.parse(listArrStr);
-  listArr.forEach((item) => {
+  const updatedList = listArr.map((item) => {
     if (item.index === index) {
       item.description = "I will complete my today's task";
     }
+    return item;
   });
-  localStorage.setItem('list', JSON.stringify(listArr));
+  localStorage.setItem('list', JSON.stringify(updatedList));
   showList();
 };
 
